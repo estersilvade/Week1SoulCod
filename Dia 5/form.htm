@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="form.css" rel="stylesheet" type="text/
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>Formulario</h1>
+  <form action="formulario.html" method="post">
+    <div>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+      <br>
+      <label for="nome">
+        sobrenome</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu 
+      sobrenome">
+
+    </div>
+    <br>
+      <div>
+        <label for="phone">Tel.cel</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      </div>
+      <br>
+      <label for="nascimento">Data de nascimento</label>
+      <input type="date" id="data-nascimento" name="data-nascimento" >
+      
+      <br>
+      <label for="Email">Email</label>
+      <input type="email" id="Email" name="email" placeholder="Digite seu email">
+    </div>
+    <br>
+    <div>
+      <label for="Estados">Selecione Estado</label>
+        <select id="carro" name="carro">
+            <option>AC</option>
+            <option>Al</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+        </select>
+    </div>
+    <br>
+    <div>
+      <label for="msg">Mensagem</label>
+      <textarea id="msg" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    
+    
+    <br>
+    <div>
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" placeholder="Digite Sua Senha ">
+    </div>
+    <br>
+    <div>
+      <button type="submit" title="Enviar Mensagem ">Enviar Mensagem </button>
+      <button type="reset" title="Limpa Campo  ">Limpa Campo </button>
+    </div>
+    
+  </form>
+</body>
+</html>

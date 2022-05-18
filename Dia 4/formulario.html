@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulario</h1>
+  <form action="formulario.html" method="post">
+    <div>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+    </div>
+    <br>
+    <div>
+      <label for="nascimento">Data de nascimento</label>
+      <input type="date" id="data-nascimento" name="data-nascimento" >
+    </div>
+    <br>
+    <div>
+      <label for="Email">Email</label>
+      <input type="email" id="Email" name="email" placeholder="Digite seu email">
+    </div>
+    <br>
+    <div>
+      <label for="msg">Mensagem</label>
+      <textarea id="msg" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+      <label for="carro">Selecione o seu Carro</label>
+        <select id="carro" name="carro">
+            <option>Volvo</option>
+            <option>Opala</option>
+            <option>Supra</option>
+            <option>Marea</option>
+        </select>
+    </div>
+    
+    <br>
+    <div>
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" placeholder="Digite Sua Senha ">
+    </div>
+    <br>
+    <div>
+      <button type="submit" title="Enviar Mensagem ">Enviar Mensagem </button>
+      <button type="reset" title="Limpa Campo  ">Limpa Campo </button>
+    </div>
+    
+  </form>
+</body>
+</html>
+
+<!-- Colocar a pagina  para  qual vc vai enviar /form action="formulario.html" method="post"> -->
